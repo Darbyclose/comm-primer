@@ -1,0 +1,166 @@
+---
+---
+
+:root {
+  --bg: #fffafc;
+  --surface: #ffffff;
+  --surface-alt: #f6f8ff;
+  --text: #2f2a37;
+  --muted: #5f5a6a;
+  --primary: #7b78e6;
+  --primary-soft: #dcdafc;
+  --accent: #f4bfd8;
+  --border: #e7e6f4;
+  --focus: #3f3aa8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+a {
+  color: var(--focus);
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration-thickness: 0.15em;
+}
+
+.container {
+  width: min(70rem, 92%);
+  margin: 0 auto;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  background: var(--surface);
+  border: 2px solid var(--focus);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  z-index: 1000;
+}
+
+.site-header {
+  background: linear-gradient(130deg, var(--primary-soft), #fceaf4);
+  border-bottom: 1px solid var(--border);
+  padding: 2rem 0 1.25rem;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.site-title a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-subtitle {
+  margin: 0.45rem 0 0;
+  color: var(--muted);
+}
+
+.site-nav {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0.85rem 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.site-nav a {
+  display: inline-block;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible {
+  background: var(--accent);
+  border-color: #e7aac8;
+}
+
+main {
+  padding: 2rem 0;
+}
+
+article {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1.75rem;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+}
+
+h2 {
+  margin-top: 1.75rem;
+}
+
+.lead {
+  font-size: 1.1rem;
+  color: var(--muted);
+}
+
+.callout {
+  border-left: 0.4rem solid var(--primary);
+  background: var(--surface-alt);
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 1rem 0 2rem;
+  color: var(--muted);
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+@media (max-width: 48rem) {
+  .site-title {
+    font-size: 1.4rem;
+  }
+
+  article {
+    padding: 1.1rem;
+  }
+}
