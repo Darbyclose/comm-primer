@@ -1,0 +1,12 @@
+title: Communication Primer
+email: ""
+description: >-
+  A beginner-friendly guide to major communication theory lenses for contemporary communication problems, including AI-mediated contexts.
+baseurl: "/comm-primer"
+url: "https://darbyclose.github.io"
+repository: "Darbyclose/comm-primer"
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
