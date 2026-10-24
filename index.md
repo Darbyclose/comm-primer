@@ -13,10 +13,14 @@ permalink: /
 </section>
 
 <section>
-  <div class="kicker section-label">THE EVERYDAY PROBLEM</div>
-  <h2>A perfectly written message can still miss the point.</h2>
-  <p>Imagine getting an apology from a friend. The wording is flawless. Then you learn they asked ChatGPT to write the entire thing. Would you feel the same? Maybe. Maybe not. That difference is what communication theory helps us understand.</p>
-  <div class="callout"><strong>The big idea:</strong> Communication isn't only about sending the right words. It's about shared meaning, relationships, interpretation, and the choices behind a message.</div>
+  <div class="kicker section-label">THE BIG QUESTION</div>
+  <h2>Just because AI can say it, should it?</h2>
+
+  <p>We've all had moments where we didn't know what to say. Now, instead of figuring it out ourselves, we can ask AI to do it for us. But I think that raises an interesting question: if the words are perfect, does it matter who actually wrote them?</p>
+
+  <p>That's what this website is about. Not whether AI is good or bad, but how it might be changing the way we communicate with each other.</p>
+
+  <p><a href="{{ '/ai-assisted-message/' | relative_url }}">Why this matters →</a></p>
 </section>
 
 <section id="try-it" class="activity">
