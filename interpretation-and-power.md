@@ -79,7 +79,7 @@ permalink: /interpretation-and-power/
   <div class="choice-row" role="group" aria-label="Rate the sincerity of the apology">
     <button type="button" data-sincerity="sincere" aria-pressed="false">Sincere</button>
     <button type="button" data-sincerity="unsure" aria-pressed="false">Not sure</button>
-    <button type="button" data-sincerity="insincere" aria-pressed="false">Not sincere</button>
+  <button type="button" id="reveal-ai" class="reveal-button">Reveal who wrote it ✨</button>>
   </div>
 
   <div id="sincerity-result" class="result" aria-live="polite" hidden>
