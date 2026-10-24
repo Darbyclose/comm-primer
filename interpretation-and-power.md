@@ -2,7 +2,7 @@
 layout: default
 title: Interpretation and power
 permalink: /interpretation-and-power/
-
+---
 
 <section class="activity">
   <div class="kicker">INTERACTIVE EXPERIMENT / 02</div>
@@ -43,5 +43,3 @@ permalink: /interpretation-and-power/
 })();
 </script>
 
-
----
