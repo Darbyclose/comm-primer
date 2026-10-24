@@ -60,3 +60,4 @@ permalink: /interpretation-and-intention/
   }
 })();
 </script>
+<p><a href="{{ '/what-the-reader-should-do/' | relative_url }}">Next: The Toolkit →</a></p>
