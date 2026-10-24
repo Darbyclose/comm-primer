@@ -4,12 +4,6 @@ title: The transmission view and its limits
 permalink: /transmission-view-and-its-limits/
 ---
 
----
-layout: default
-title: Transmission View and Its Limits
-permalink: /transmission-view-and-its-limits/
----
-
 <div class="kicker">THE THEORY / 01</div>
 
 <h2>Just because the message gets there doesn't mean it connects.</h2>
