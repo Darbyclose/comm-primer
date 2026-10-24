@@ -122,3 +122,4 @@ permalink: /
   });
 })();
 </script>
+<p><a href="{{ '/ai-assisted-message/' | relative_url }}">Next: The Problem →</a></p>
