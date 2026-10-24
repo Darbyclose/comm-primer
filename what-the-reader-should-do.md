@@ -11,8 +11,8 @@ permalink: /what-the-reader-should-do/
 
   <p class="intro">We've spent a lot of time talking about how AI is changing communication. But what are we actually supposed to do with that information?</p>
 
-  <p>I don't think the answer is to stop using AI. It can be genuinely helpful when you're struggling to organize your thoughts, find the right words, or figure out where to start.</p>
-
+  <p>I don't think the answer is to stop using AI. It can be  helpful when you're struggling to organize your thoughts, find the right words, or figure out where to start.</p>
+ 
   <p>But I also think there's a difference between using AI to help communicate something you already mean and letting it decide what you want to say.</p>
 
   <p>So instead of coming up with a bunch of random rules, I wanted to take the communication theories we've already covered and think about how we can actually use them in everyday life.</p>
