@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Interpretation and power
