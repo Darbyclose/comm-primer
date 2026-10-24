@@ -1,8 +1,52 @@
+
 ---
 layout: default
 title: Interpretation and power
 permalink: /interpretation-and-power/
 ---
+
+<style>
+/* Special reveal button */
+#reveal-ai {
+  display: inline-block;
+  background-color: #172c3b !important;
+  color: #ffffff !important;
+  border: 2px solid #172c3b !important;
+  border-radius: 12px !important;
+  padding: 14px 24px !important;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+#reveal-ai:hover:not(:disabled) {
+  background-color: #cf573c !important;
+  border-color: #cf573c !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+}
+
+#reveal-ai:disabled {
+  background-color: #cf573c !important;
+  border-color: #cf573c !important;
+  color: #ffffff !important;
+  cursor: default;
+  transform: none;
+}
+
+/* Keep hidden experiment results hidden */
+#sincerity-result[hidden],
+#ai-reveal-result[hidden] {
+  display: none !important;
+}
+
+#reveal-ai:focus-visible {
+  outline: 3px solid #cf573c;
+  outline-offset: 3px;
+}
+</style>
 
 <section>
   <div class="kicker">INTERPRETATION & POWER / 04</div>
@@ -79,12 +123,12 @@ permalink: /interpretation-and-power/
   <div class="choice-row" role="group" aria-label="Rate the sincerity of the apology">
     <button type="button" data-sincerity="sincere" aria-pressed="false">Sincere</button>
     <button type="button" data-sincerity="unsure" aria-pressed="false">Not sure</button>
-  <button type="button" id="reveal-ai" class="reveal-button">Reveal who wrote it ✨</button>>
+    <button type="button" data-sincerity="insincere" aria-pressed="false">Not sincere</button>
   </div>
 
   <div id="sincerity-result" class="result" aria-live="polite" hidden>
     <p>Interesting! Now let's add one more piece of information.</p>
-    <button type="button" id="reveal-ai">Reveal who wrote it</button>
+    <button type="button" id="reveal-ai">Reveal who wrote it ✨</button>
   </div>
 
   <div id="ai-reveal-result" class="result" aria-live="polite" hidden>
@@ -134,23 +178,28 @@ permalink: /interpretation-and-power/
   const revealButton = document.getElementById("reveal-ai");
   const revealResult = document.getElementById("ai-reveal-result");
 
+  if (!sincerityResult || !revealButton || !revealResult) {
+    return;
+  }
+
   choices.forEach(function (button) {
     button.addEventListener("click", function () {
       choices.forEach(function (choice) {
-        choice.setAttribute("aria-pressed", String(choice === button));
+        choice.setAttribute(
+          "aria-pressed",
+          String(choice === button)
+        );
       });
 
       sincerityResult.hidden = false;
     });
   });
 
-  if (revealButton && revealResult) {
-    revealButton.addEventListener("click", function () {
-      revealResult.hidden = false;
-      revealButton.textContent = "Revealed!";
-      revealButton.disabled = true;
-    });
-  }
+  revealButton.addEventListener("click", function () {
+    revealResult.hidden = false;
+    revealButton.textContent = "Revealed! ✨";
+    revealButton.disabled = true;
+  });
 })();
 </script>
 
