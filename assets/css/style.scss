@@ -346,3 +346,57 @@ th { background: var(--sage); }
   .footer-inner { display: block; }
   .hero { padding-top: 1rem; }
 }
+
+/* Interactive activities */
+
+.activity {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: #dce8e2;
+  border: 1px solid #c5d5cb;
+  border-radius: 8px;
+}
+
+.activity h2 {
+  margin-top: .5rem;
+}
+
+.activity .message {
+  background: #fffdf9;
+  border: 1px solid #c5d5cb;
+  padding: 1.3rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+.activity button,
+.activity select {
+  cursor: pointer;
+}
+
+.activity button:disabled {
+  opacity: .65;
+  cursor: default;
+}
+
+.activity input[type="range"] {
+  accent-color: #c65c3f;
+}
+
+.activity .result {
+  margin-top: 1.2rem;
+  padding: 1.3rem;
+  background: white;
+  border-left: 4px solid #c65c3f;
+}
+
+.activity .result[hidden],
+.activity .message[hidden] {
+  display: none;
+}
+
+@media (max-width: 680px) {
+  .activity {
+    padding: 1.2rem;
+  }
+}
