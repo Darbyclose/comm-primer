@@ -149,8 +149,33 @@ permalink: /what-the-reader-should-do/
     AI can help us communicate, but we still have to decide what we want to say, what we mean, and how much of ourselves we're putting into the message.
   </div>
 
-  <p><small><strong>Research behind this section:</strong> Shannon and Weaver, <em>The Mathematical Theory of Communication</em>; Daniel Chandler, <em>Semiotics: The Basics</em>; Stuart Hall's encoding/decoding model; and Carlos Evia and Sarah O'Keefe, <em>The Uninvited Author</em>.</small></p>
+
+<section>
+  <div class="kicker section-label">RESEARCH / WORKS CITED</div>
+
+  <h2>Works Cited</h2>
+
+  <p>All of the research throughout this website comes from my original communication primer. These are the sources I used when writing it.</p>
+
+  <div class="feature-card">
+    <p>Chandler, Daniel. <em>Semiotics: The Basics.</em> 5th ed., Routledge, 2025.</p>
+
+    <p>"Encoding/Decoding: Who Gets to Decide What a Message Means?" <em>CMST 4714: The Human Communicator in an Era of AI</em>, course lecture slides, 2026.</p>
+
+    <p>Eco, Umberto. "Intentio Lectoris." <em>Differentia: Review of Italian Thought</em>, no. 2, 1988.</p>
+
+    <p>Evia, Carlos, and Sarah O'Keefe. <em>The Uninvited Author: AI, Intent, and the Future of Content.</em> Scriptorium Publishing Services, 2026.</p>
+
+    <p>Fu, Yue, et al. "From Text to Self: Users' Perceptions of Potential of AI on Interpersonal Communication and Self." <em>arXiv</em>, 2023, <a href="https://arxiv.org/abs/2310.03976">https://arxiv.org/abs/2310.03976</a>.</p>
+
+    <p>Shannon, Claude E., and Warren Weaver. <em>The Mathematical Theory of Communication.</em> University of Illinois Press, 1963.</p>
+
+    <p>"The Shannon &amp; Weaver Model: Communication as Transmission." <em>CMST 4714: The Human Communicator in an Era of AI</em>, course lecture slides, 14 Sept. 2026.</p>
+
+    <p>Zhu, Jiaqi, and Andras Molnar. "Blissful (A)Ignorance: Despite the Widespread Adoption of AI in Communication, People Do Not Suspect AI Use in Realistic Contexts." <em>Computers in Human Behavior</em>, vol. 180, 2026, article 108929, <a href="https://doi.org/10.1016/j.chb.2026.108929">https://doi.org/10.1016/j.chb.2026.108929</a>.</p>
+  </div>
 </section>
+
 
 
 <script>
