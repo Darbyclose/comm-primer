@@ -29,17 +29,27 @@ permalink: /meaning-and-culture/
 
   <p>But AI doesn't actually have the memories or experiences behind your friendship. It can put together words that sound meaningful without having lived through the moments that make those words personal.</p>
 
-  <h2>Which birthday message would mean more to you?</h2>
+<h2>It's literally just a period... right?</h2>
 
-  <p>Imagine getting two birthday messages.</p>
+<p>Imagine you text your friend asking if they're still coming over, and they respond with one word:</p>
 
-  <p><strong>Message A:</strong> "Happy birthday to one of the most amazing people I know! I'm so grateful for your friendship and all the wonderful memories we've shared. Here's to another incredible year!"</p>
+<p><strong>"Sure."</strong></p>
 
-  <p><strong>Message B:</strong> "HAPPY BIRTHDAY!!! Still can't believe we survived that road trip when we got lost for three hours. Love you forever, even if you're the worst navigator I've ever met."</p>
+<p>Now imagine they respond with:</p>
 
-  <p>Message A sounds polished and sweet. But Message B tells you something about the actual relationship. There's a shared memory, a joke, and a personality behind it.</p>
+<p><strong>"sureeee!!"</strong></p>
 
-  <p>That's the point. The meaning of a message isn't just in the words. It's also in what those words mean to the people involved.</p>
+<p>Technically, both messages communicate the same answer. Your friend is coming over. But they probably don't feel the same to you.</p>
+
+<p>The first one might make you wonder if they're annoyed. The second one sounds a lot more excited. Neither interpretation is guaranteed to be right, but we still make those assumptions based on punctuation, spelling, and tone.</p>
+
+<p>This is semiotics in everyday life. We attach meaning to tiny details because of what we've learned through our relationships, experiences, and culture.</p>
+
+<p>And this is where AI gets interesting. If you ask ChatGPT to make a text sound friendlier, it might add exclamation points, change the wording, or throw in an emoji. It recognizes the patterns we associate with friendliness.</p>
+
+<p>But making something sound friendly isn't necessarily the same as actually feeling that way.</p>
+
+<p><strong>The question is:</strong> If AI can copy the signs we associate with emotion, how do we decide what's genuine?</p>
 
   <h2>When everyone starts sounding the same</h2>
 
