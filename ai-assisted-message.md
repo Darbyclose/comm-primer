@@ -40,7 +40,7 @@ permalink: /ai-assisted-message/
 
   <h2>It's not all bad.</h2>
 
-  <p>I don't think using AI automatically makes something fake or uncreative. It can be genuinely helpful, especially when you're stuck or struggling to explain something.</p>
+  <p>I don't think using AI automatically makes something fake or uncreative. Sometimes it's exactly what you need when you're stuck or struggling to explain something.</p>
 
   <p>But I do think we should pay attention to how much we're relying on it. If we use AI for every idea, every message, and every difficult conversation, are we missing out on part of the creative process?</p>
 
