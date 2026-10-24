@@ -41,13 +41,15 @@ permalink: /how-i-built-this-site/
 
   <p>I'm not exaggerating when I say I went into this knowing pretty much nothing about building a website.</p>
 
-  <p>I used GitHub Pages and Jekyll to put the site together, but I relied on ChatGPT to help me understand what I was doing and write the code. I would explain what I wanted a page to look like, and AI would help turn that idea into HTML, CSS, or JavaScript.</p>
+  <p>My professor actually played a big role in getting this website started. He gave me the prompt that helped generate the original code and structure for the website, including all the different pages. So I wasn't starting from a completely blank screen. He helped give me the foundation I needed to turn my primer into an actual website, which was especially helpful considering I had no idea how to code any of it.</p>
+
+  <p>From there, I used GitHub Pages and Jekyll to put the site together, but I relied on ChatGPT to help me understand what I was doing and build on those original files. I would explain what I wanted a page to look like, and AI would help turn that idea into HTML, CSS, or JavaScript.</p>
 
   <p>Then I'd put the code into GitHub, see what happened, and usually come back with another question.</p>
 
   <p>Sometimes it worked exactly how I wanted. Other times, something would break, a page wouldn't load, or the design would look completely different from what I had pictured.</p>
 
-  <p>At one point, I kept getting a 404 error, and it turned out that one blank line at the beginning of a file was causing the problem.I had no idea that could happen.</p>
+  <p>At one point, I kept getting a 404 error, and it turned out that one blank line at the beginning of a file was causing the problem. I had no idea that could happen.</p>
 
   <p>But that's also what made this experience interesting. I didn't suddenly become a computer scientist, but I did start to understand a little more about how websites work just by trying things, messing them up, and fixing them.</p>
 </section>
@@ -96,16 +98,18 @@ permalink: /how-i-built-this-site/
 
   <p><strong>The research and original primer were mine.</strong> I wrote the primer myself, and the communication theories and main ideas on this site come from that original work.</p>
 
+  <p><strong>My professor helped build the foundation.</strong> He provided the prompt that generated the original website code, including the structure and different pages. His help gave me the starting point I needed to build on and customize the website.</p>
+
   <p><strong>ChatGPT helped me turn it into a website.</strong> I used ChatGPT to help with coding, page layouts, interactive features, troubleshooting, and rewriting some information for a better online format.</p>
 
   <p><strong>Grammarly helped with editing.</strong> I used Grammarly to catch spelling mistakes, grammar issues, and awkward sentences throughout the writing and editing process.</p>
 
   <p><strong>I made the decisions about what I wanted.</strong> I chose what to include, how the site should feel, and what I wanted readers to take away. When something didn't sound right or look right, I changed it.</p>
 
-  <p>So no, I didn't sit down and type out all the code for this website myself. I wouldn't even know where to start with some of it. Between ChatGPT helping me figure out the coding and Grammarly helping me clean up my writing, technology played a pretty big role in this project. But the original primer and the ideas behind the website were still mine.</p>
+  <p>So no, I didn't sit down and type out all the code for this website myself. I wouldn't even know where to start with some of it. Between my professor helping create the original website structure, ChatGPT helping me figure out the coding, and Grammarly helping me clean up my writing, I had a lot of help getting this project together. But the original primer and the ideas behind the website were still mine.</p>
 
   <div class="callout">
-    <strong>My AI and editing tools disclosure:</strong> This website is based on a communication primer I researched and wrote independently. I used ChatGPT to help turn my primer into an interactive website, including assistance with HTML, CSS, JavaScript, design, editing, and troubleshooting. I also used Grammarly for grammar, spelling, and proofreading. The original research, ideas, and overall direction of the project were my own.
+    <strong>Project credits and AI disclosure:</strong> This website is based on a communication primer I researched and wrote independently. My professor provided the prompt that helped generate the original website files, including the structure and individual pages. I used ChatGPT to build on and customize those files, including assistance with HTML, CSS, JavaScript, design, editing, and troubleshooting. I also used Grammarly for grammar, spelling, and proofreading. The original research, ideas, and overall direction of the project were my own.
   </div>
 </section>
 
