@@ -46,3 +46,4 @@ permalink: /ai-assisted-message/
 
   <p>That's what the rest of this primer explores. Communication isn't just about getting the words right. It's about the meaning, intention, and human connection behind them.</p>
 </section>
+<p><a href="{{ '/transmission-view-and-its-limits/' | relative_url }}">Next: Clarity →</a></p>
