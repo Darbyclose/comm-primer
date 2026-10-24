@@ -66,14 +66,26 @@
   
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const currentPath = window.location.pathname.replace(/\/+$/, "") || "/";
+  const links = document.querySelectorAll(".site-nav a");
 
-  document.querySelectorAll(".site-nav a").forEach(function (link) {
-    const linkPath = new URL(link.href).pathname.replace(/\/+$/, "") || "/";
+  function normalize(path) {
+    return decodeURIComponent(path)
+      .replace(/\/index\.html$/, "/")
+      .replace(/\.html$/, "")
+      .replace(/\/+$/, "") || "/";
+  }
 
-    if (linkPath === currentPath) {
+  const current = normalize(window.location.pathname);
+
+  links.forEach(function (link) {
+    const target = normalize(new URL(link.href).pathname);
+
+    if (current === target) {
       link.classList.add("active");
       link.setAttribute("aria-current", "page");
+    } else {
+      link.classList.remove("active");
+      link.removeAttribute("aria-current");
     }
   });
 });
