@@ -401,11 +401,21 @@ th { background: var(--sage); }
   }
 }
 
-/* Highlight the current page in navigation */
-.site-nav a.active {
+
+/* Highlight the current page */
+.site-nav a.active,
+.site-nav a[aria-current="page"] {
   color: #cf573c;
-  background-color: #fce8df;
-  border-radius: 999px;
-  font-weight: 700;
+  background: transparent;
+  border: none;
   border-bottom: 2px solid #cf573c;
+  border-radius: 0;
+  font-weight: 700;
 }
+
+/* Orange text when hovering */
+.site-nav a:hover {
+  color: #cf573c;
+  background: transparent;
+}
+
