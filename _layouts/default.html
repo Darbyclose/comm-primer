@@ -63,5 +63,21 @@
       </div>
     </div>
   </footer>
+  
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const currentPath = window.location.pathname.replace(/\/+$/, "") || "/";
+
+  document.querySelectorAll(".site-nav a").forEach(function (link) {
+    const linkPath = new URL(link.href).pathname.replace(/\/+$/, "") || "/";
+
+    if (linkPath === currentPath) {
+      link.classList.add("active");
+      link.setAttribute("aria-current", "page");
+    }
+  });
+});
+</script>
+
 </body>
 </html>
