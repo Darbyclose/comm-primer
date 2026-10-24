@@ -11,9 +11,9 @@ permalink: /how-i-built-this-site/
 
   <p class="intro">I made a website about the influence of AI on human communication... using AI. The irony is not lost on me.</p>
 
-  <p>I'm a communication student. I know how to write a paper, research a topic, and talk about communication theories. What I do not know how to do is code a website. Before this project, I had basically no experience with computer science, HTML, CSS, JavaScript, or any of the other things that go into making a website.</p>
+  <p>I'm a communication student. I know how to write a paper, research a topic, and talk about communication theories. What I do not know how to do is code a website. Before this project, I had basically no experience with computer science, HTML, CSS, JavaScript, or anything else that goes into making a website.</p>
 
-  <p>And yet, here we are. You're reading a website I built!</p>
+  <p>And yet, here we are... You're reading a website I built!</p>
 
   <p>That's probably the most interesting part of this whole experience to me. AI made it possible for someone like me, who has no coding background, to create something I honestly wouldn't have known where to begin with otherwise.</p>
 </section>
@@ -28,7 +28,7 @@ permalink: /how-i-built-this-site/
 
   <p>I researched the communication theories, figured out how they connected to AI, and wrote the original primer myself. The information throughout this website is based on that work.</p>
 
-  <p>When it came time to turn my primer into a website, I didn't want to just copy and paste my paper onto a bunch of pages. I wanted it to be something people could actually explore, especially because the topic is something most of us deal with almost every day.</p>
+  <p>When it came time to turn my primer into a website, I didn't want to just copy and paste my paper onto a bunch of pages. I wanted it to be something people could explore easily even if they had no previous knowledge of the topic, especially because the topic is something most of us deal with almost every day.</p>
 
   <p>So the challenge became figuring out how to take something I'd already written and turn it into a website that was interesting, easy to follow, and hopefully a little fun.</p>
 </section>
@@ -47,7 +47,7 @@ permalink: /how-i-built-this-site/
 
   <p>Sometimes it worked exactly how I wanted. Other times, something would break, a page wouldn't load, or the design would look completely different from what I had pictured.</p>
 
-  <p>At one point, I kept getting a 404 error, and it turned out that one blank line at the beginning of a file was causing the problem. One blank line. I had no idea that could happen.</p>
+  <p>At one point, I kept getting a 404 error, and it turned out that one blank line at the beginning of a file was causing the problem.I had no idea that could happen.</p>
 
   <p>But that's also what made this experience interesting. I didn't suddenly become a computer scientist, but I did start to understand a little more about how websites work just by trying things, messing them up, and fixing them.</p>
 </section>
@@ -66,7 +66,7 @@ permalink: /how-i-built-this-site/
 
   <p>Those activities were my way of taking the ideas from my primer and making them a little more real. Instead of just telling someone that context or interpretation matters, I wanted them to actually experience it.</p>
 
-  <p>And again, I couldn't have coded any of those activities on my own. AI helped me build them, but I still had to figure out what I wanted them to demonstrate and whether they were actually doing that.</p>
+  <p>And again, I couldn't have coded any of those activities on my own. AI helped me build them, but I still had to decide what I wanted them to demonstrate and whether they actually did.</p>
 </section>
 
 
@@ -77,15 +77,13 @@ permalink: /how-i-built-this-site/
 
   <p>This is where the whole project gets a little ironic.</p>
 
-  <p>My primer is about how AI can influence the things we create and communicate. And while building this website, I was experiencing that exact thing.</p>
+  <p>My primer is about how AI can influence what we create and how we communicate. While building this website, I experienced that exact thing.</p>
 
-  <p>I'd ask ChatGPT to help me write something or design a section, and sometimes it would give me something I liked. Other times, it would sound way too formal, use words I would never use, or take the page in a direction I didn't want.</p>
-
-  <p>So I'd change it. Sometimes I'd ask it to rewrite something five different ways because none of them sounded like me.</p>
+  <p>I'd ask ChatGPT to help me rewrite a sentence, check grammar, or design a section, and sometimes it would give me something I liked. Other times, it would take my idea in a way different direction.</p>
 
   <p>That's what made the connection to my research so interesting. I was using AI as a tool, but I could also see how easily it could start shaping the final product if I wasn't paying attention.</p>
 
-  <p>And I think that's an important distinction. AI made this website possible for me, but that doesn't mean I wanted it making every decision for me.</p>
+  <p>And I think that's an important distinction. AI made this website possible for me, but I didn't want it making every decision for me.</p>
 </section>
 
 
@@ -98,16 +96,16 @@ permalink: /how-i-built-this-site/
 
   <p><strong>The research and original primer were mine.</strong> I wrote the primer myself, and the communication theories and main ideas on this site come from that original work.</p>
 
-  <p><strong>ChatGPT helped me turn it into a website.</strong> I used ChatGPT to help with coding, page layouts, interactive features, troubleshooting, and rewriting some of the information into a format that worked better online.</p>
+  <p><strong>ChatGPT helped me turn it into a website.</strong> I used ChatGPT to help with coding, page layouts, interactive features, troubleshooting, and rewriting some information for a better online format.</p>
 
   <p><strong>Grammarly helped with editing.</strong> I used Grammarly to catch spelling mistakes, grammar issues, and awkward sentences throughout the writing and editing process.</p>
 
-  <p><strong>I made the decisions about what I wanted.</strong> I chose what to include, how I wanted the site to feel, and what I wanted readers to take away. When something didn't sound right or look right, I changed it.</p>
+  <p><strong>I made the decisions about what I wanted.</strong> I chose what to include, how the site should feel, and what I wanted readers to take away. When something didn't sound right or look right, I changed it.</p>
 
-  <p>So no, I didn't sit down and type out all of this website's code myself. I wouldn't even know where to start with some of it. Between ChatGPT helping me figure out the coding and Grammarly helping me clean up my writing, technology played a pretty big role in this project. But the original primer and the ideas behind the website were still mine.</p>
+  <p>So no, I didn't sit down and type out all the code for this website myself. I wouldn't even know where to start with some of it. Between ChatGPT helping me figure out the coding and Grammarly helping me clean up my writing, technology played a pretty big role in this project. But the original primer and the ideas behind the website were still mine.</p>
 
   <div class="callout">
-    <strong>My AI and editing tools disclosure:</strong> The information on this website is based on a communication primer that I independently researched and wrote. I used ChatGPT to help turn my primer into an interactive website, including assistance with HTML, CSS, JavaScript, design, editing, and troubleshooting. I also used Grammarly for grammar, spelling, and proofreading. The original research, ideas, and overall direction of the project were my own.
+    <strong>My AI and editing tools disclosure:</strong> This website is based on a communication primer I researched and wrote independently. I used ChatGPT to help turn my primer into an interactive website, including assistance with HTML, CSS, JavaScript, design, editing, and troubleshooting. I also used Grammarly for grammar, spelling, and proofreading. The original research, ideas, and overall direction of the project were my own.
   </div>
 </section>
 
