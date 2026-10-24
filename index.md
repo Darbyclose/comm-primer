@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Home
@@ -6,33 +7,30 @@ permalink: /
 
 <section class="hero">
   <div class="kicker">AI × COMMUNICATION × REAL LIFE</div>
+
   <h1>When AI speaks for us, <em>what happens to our voice?</em></h1>
+
   <p class="intro">We ask AI to write emails, birthday messages, apologies, and even the things we don't know how to say. That's convenient. But does a better-written message always make for better communication?</p>
+
   <p>This isn't an argument to stop using AI. It's a guide to using it without losing the human part of communicating.</p>
+
   <a class="button-link" href="#try-it">Try the message experiment ↓</a>
 </section>
 
-<section>
-  <div class="kicker section-label">THE BIG QUESTION</div>
-  <h2>Just because AI can say it, should it?</h2>
-
-  <p>We've all had moments where we didn't know what to say. Now, instead of figuring it out ourselves, we can ask AI to do it for us. But I think that raises an interesting question: if the words are perfect, does it matter who actually wrote them?</p>
-
-  <p>That's what this website is about. Not whether AI is good or bad, but how it might be changing the way we communicate with each other.</p>
-
-  <p><a href="{{ '/ai-assisted-message/' | relative_url }}">Why this matters →</a></p>
-</section>
 
 <section id="try-it" class="activity">
   <div class="kicker">INTERACTIVE / 01</div>
+
   <h2>Which birthday text feels more personal?</h2>
-  <p>Read these two made-up examples. Neither is automatically better. What matters is what you notice.</p>
+
+  <p>Imagine it's your birthday and you get these two messages. Both are sweet in their own way, but which one would mean more to you?</p>
 
   <div class="message-grid">
     <div class="message">
       <strong>MESSAGE A</strong>
       <p>Happy birthday! I'm so grateful to have you in my life. You bring joy to everyone around you, and I hope your day is as wonderful as you are!</p>
     </div>
+
     <div class="message">
       <strong>MESSAGE B</strong>
       <p>HAPPY BIRTHDAY!! Still can't believe we survived that road trip when you got us lost for three hours. Love you, but I'm never letting you navigate again.</p>
@@ -50,66 +48,30 @@ permalink: /
   <div id="message-result" class="result" aria-live="polite" hidden></div>
 </section>
 
-<section>
-  <div class="kicker section-label">FOUR WAYS TO SEE WHAT'S HAPPENING</div>
-  <h2>The theory, without the textbook headache.</h2>
-
-  <div class="feature-grid">
-    <a class="feature-card" href="{{ '/transmission-view-and-its-limits/' | relative_url }}">
-      <span class="number">01 / SHANNON & WEAVER</span>
-      <h3>Clear isn't always caring.</h3>
-      <p>AI can make words clearer. But does that guarantee connection?</p>
-    </a>
-
-    <a class="feature-card" href="{{ '/meaning-and-culture/' | relative_url }}">
-      <span class="number">02 / SEMIOTICS</span>
-      <h3>Inside jokes matter.</h3>
-      <p>How memories and shared context make words personal.</p>
-    </a>
-
-    <a class="feature-card" href="{{ '/interpretation-and-power/' | relative_url }}">
-      <span class="number">03 / STUART HALL</span>
-      <h3>The reader gets a say.</h3>
-      <p>Why the same AI-written message can feel thoughtful to one person and impersonal to another.</p>
-    </a>
-
-    <a class="feature-card" href="{{ '/interpretation-and-intention/' | relative_url }}">
-      <span class="number">04 / ALGORITHMIC INTENTION</span>
-      <h3>Who's shaping the message?</h3>
-      <p>When AI suggests your words, it influences more than grammar.</p>
-    </a>
-  </div>
-</section>
 
 <section>
-  <div class="kicker section-label">THE SOLUTION</div>
-  <h2>Use the tool. Keep your voice.</h2>
-  <p>AI doesn't have to replace your creativity. A useful starting point is to decide which parts of a message should come from you and which parts could use some help.</p>
+  <div class="kicker section-label">THINK ABOUT IT</div>
 
-  <ol class="checklist">
-    <li><strong>Start with your own thought.</strong> What do you actually want this person to know?</li>
-    <li><strong>Use AI for support.</strong> Ask it to organize, clarify, or edit your words rather than invent your feelings.</li>
-    <li><strong>Put the personal details back.</strong> Keep your memories, jokes, and specific examples.</li>
-    <li><strong>Read it before sending.</strong> Would you actually say this? Does it mean what you intend?</li>
-    <li><strong>Think about the relationship.</strong> A routine work email and an apology to a friend don't carry the same stakes.</li>
-  </ol>
+  <h2>Maybe the words aren't the whole story.</h2>
 
-  <p><a class="button-link" href="{{ '/what-the-reader-should-do/' | relative_url }}">Explore the full communication toolkit →</a></p>
+  <p>Both messages say happy birthday. Both are meant to make someone feel appreciated. But they probably don't feel exactly the same.</p>
+
+  <p>So what makes one message feel more personal than another? Is it the words themselves? The memories behind them? Or just knowing who wrote them?</p>
+
+  <p>Now imagine finding out that one of those messages was written by AI. Would that change your answer?</p>
+
+  <p>That's what I want to explore. Because as AI becomes part of more of our everyday conversations, I think it's worth asking what makes communication feel human in the first place.</p>
 </section>
 
-<section>
-  <div class="kicker section-label">ABOUT THIS PROJECT</div>
-  <h2>Why look at something as ordinary as a text?</h2>
-  <p>Because the little things we do every day are communication, too. This site builds on my communication theory primer, <em>When AI Does the Creating: Are We Losing Human Connection and Creativity?</em>, and uses those theories to make an everyday problem easier to see—and easier to handle.</p>
-  <p>Read more about <a href="{{ '/ai-assisted-message/' | relative_url }}">the problem</a>, or see <a href="{{ '/how-i-built-this-site/' | relative_url }}">how this site was built</a>.</p>
-</section>
 
 <script>
 (function () {
   const messages = {
-    a: "You picked the polished message. That is a valid reading! Stuart Hall's encoding/decoding model helps explain why the receiver's interpretation matters—not just what the sender intended.",
-    b: "You picked the inside joke. Semiotics helps explain why shared memories and personal context can give ordinary words special meaning.",
-    both: "Exactly: context and relationships matter. Semiotics and Stuart Hall's encoding/decoding model show why no single message has the same meaning for everyone."
+    a: "You picked Message A! Maybe you appreciate a thoughtful, well-written message. But here's something to consider: would you feel differently if you found out AI wrote it?",
+
+    b: "You picked Message B! Maybe the inside joke and shared memory made it feel more personal. But what if AI had been given those details and wrote the message instead?",
+
+    both: "You picked both / it depends! That's interesting, because the relationship, the situation, and who wrote the message could all change how you feel about it."
   };
 
   const result = document.getElementById("message-result");
@@ -126,4 +88,6 @@ permalink: /
   });
 })();
 </script>
+
+
 <p><a href="{{ '/ai-assisted-message/' | relative_url }}">Next: The Problem →</a></p>
