@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Behind the Site
+title: Behind the site
 permalink: /how-i-built-this-site/
 ---
 
@@ -145,7 +145,7 @@ permalink: /how-i-built-this-site/
   <p>And if a communication student with basically zero coding experience can build a website about AI with the help of AI, I think that says something pretty interesting about what this technology makes possible.</p>
 
   <div class="callout">
-    <strong>Thanks for reading!</strong> And thanks to AI for helping me make a website about why we shouldn't let AI do everything for us. The irony continues.
+    <strong>Thanks for reading!</strong> And thanks to AI for helping me make a website about why we shouldn't let AI do everything for us. The irony... Until next time!
   </div>
 </section>
 
