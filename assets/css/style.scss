@@ -400,3 +400,12 @@ th { background: var(--sage); }
     padding: 1.2rem;
   }
 }
+
+/* Highlight the current page in navigation */
+.site-nav a.active {
+  color: #cf573c;
+  background-color: #fce8df;
+  border-radius: 999px;
+  font-weight: 700;
+  border-bottom: 2px solid #cf573c;
+}
