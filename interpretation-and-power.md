@@ -42,4 +42,4 @@ permalink: /interpretation-and-power/
   }
 })();
 </script>
-
+<p><a href="{{ '/interpretation-and-intention/' | relative_url }}">Next: AI's Influence →</a></p>
